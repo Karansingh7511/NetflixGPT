@@ -1,30 +1,23 @@
-# Netflix GPT
-
--create react app
--configured tailwind css into app
+- Created React app
+- Configured Tailwindcss
+- Routing of App
 - Header
-- Routing of app
-- Login form
-- Sign up Form
+- Login Form
+- SignUp Form
 - Form Validation
-- useRef Hook
-- firebase setup
-- deploy to production
-- Create SignUp User Account
-
-
-
-# Features
- -Login/Sign Up
-   -Sign In / Sign up Form
-   - redirect to Browse Page
- -Browse (after authentication)
-   -Header
-   -Main Movie
-     -Tailer in Background
-     -Title & Description
-     -MovieSuggestions
-        -MovieLists * N
- -NetflixGPT
-    -Search Bar
-    -Movie Suggestions
+- Firbase
+- useRef
+- authentication
+- setup Redux Store
+- bug fix sign up feature
+- display name and profile picture update
+- redirect user to correct path
+- unsubscribe to onauthchange callback
+- added hardcoded value to the constant file
+- Registered TMBD api
+- get data from TMBD api now playing
+- Custom hooks for now playing Videos
+- Created MovieSlice
+- Updated store with movie data
+- Fetched data for trailer video
+- Embeded the youtube video and make it autoplay and mute
